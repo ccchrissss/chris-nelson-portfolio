@@ -2192,6 +2192,15 @@ button,
     #banner .image {
       max-height: 35vh; } }
 
+#banner > .content {
+  display: flex;
+  flex-direction: column;
+}
+
+#banner > .content > .actions {
+  margin-top: auto;
+}
+
 /* Footer */
 #footer .copyright {
   color: #9fa3a6;
